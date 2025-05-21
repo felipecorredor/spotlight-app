@@ -9,7 +9,7 @@ export default function Index() {
     <View>
       <Text>HEllo World</Text>
       <TouchableOpacity onPress={() => signOut()}>
-        <Text style={{ color: "white" }}>Sign Out</Text>
+        <Text style={{ color: "black" }}>Sign Out</Text>
       </TouchableOpacity>
     </View>
   );
